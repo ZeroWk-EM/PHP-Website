@@ -1,0 +1,241 @@
+.navbar-brand span {
+  color: #F50057;
+}
+
+.nav-item a:hover {
+  color: #F50057;
+}
+
+.text-area {
+  text-align: center !important;
+}
+.text-area h1 {
+  font-size: 4rem;
+}
+.text-area span {
+  color: #F50057;
+}
+.text-area p {
+  text-align: justify;
+}
+
+.form-check span {
+  color: white;
+}
+
+.cv {
+  text-align: center !important;
+}
+
+.imgbig {
+  width: 170% !important;
+}
+
+.my-8 {
+  margin-top: 4.5rem !important;
+  margin-bottom: 4.5rem !important;
+}
+
+.mt-8 {
+  margin-top: 4.5rem !important;
+}
+
+.mb-8 {
+  margin-bottom: 4.5rem !important;
+}
+
+.tobutton {
+  align-items: flex-end !important;
+}
+
+.btn-success {
+  background-color: #F50057;
+  box-shadow: 0 4px 9px -4px #F50057 !important;
+}
+.btn-success a {
+  color: white;
+}
+.btn-success:hover {
+  background-color: #dc004e !important;
+  box-shadow: 0 4px 9px -4px #dc004e !important;
+}
+.btn-success:focus {
+  background-color: #dc004e !important;
+  box-shadow: 0 4px 9px -4px #dc004e !important;
+}
+
+.btn-outline-primary {
+  color: #F50057 !important;
+  border-color: #F50057 !important;
+}
+.btn-outline-primary a {
+  color: #F50057 !important;
+}
+.btn-outline-primary:hover {
+  color: #F50057 !important;
+  border-color: #dc004e !important;
+}
+.btn-outline-primary:active {
+  color: #F50057 !important;
+}
+.btn-outline-primary:focus {
+  color: #F50057 !important;
+  border-color: #dc004e !important;
+}
+
+@media (min-width: 768px) {
+  .text-area p {
+    text-align: justify !important;
+  }
+  .text-area {
+    text-align: left !important;
+  }
+  .cv h3 {
+    text-align: center !important;
+  }
+  .spacing {
+    margin-top: 4.5rem !important;
+    margin-bottom: 4.5rem !important;
+  }
+}
+@media (min-width: 992px) {
+  .text-area p {
+    text-align: justify !important;
+  }
+  .text-area {
+    text-align: left !important;
+  }
+  .cv h3 {
+    text-align: center !important;
+  }
+  .intro-container {
+    margin-bottom: 8rem;
+  }
+  .big {
+    font-size: 4rem !important;
+  }
+  .imgbig {
+    width: 80% !important;
+  }
+}
+.cv_send input {
+  background-color: white !important;
+}
+.cv_send label {
+  color: white;
+}
+
+.form-outline .form-control:focus ~ .form-notch .form-notch-leading {
+  border-top: 0.2rem solid #F50057;
+  border-bottom: 0.2rem solid #F50057;
+  border-left: 0.2rem solid #F50057;
+}
+
+.form-outline .form-control:focus ~ .form-notch .form-notch-trailing {
+  border-top: 0.2rem solid #F50057;
+  border-right: 0.2rem solid #F50057;
+  border-bottom: 0.2rem solid #F50057;
+}
+
+.form-outline .form-control:focus ~ .form-notch .form-notch-middle {
+  border-top: 0;
+  border-bottom: 0.2rem solid #F50057;
+}
+
+.form-outline .form-control ~ .form-notch .form-notch-leading {
+  border-radius: 10px 0 0 10px;
+}
+
+.form-outline .form-control ~ .form-notch .form-notch-trailing {
+  border-radius: 0 10px 10px 0;
+}
+
+.form-label {
+  color: #F50057 !important;
+}
+
+.form-check-input:checked {
+  border-color: #ff2975 !important;
+}
+
+.form-check-input[type=radio]:checked:after {
+  background-color: #F50057;
+}
+
+.form-check-input[type=checkbox]:checked {
+  background-color: #F50057;
+}
+
+.form-check-input[type=checkbox]:checked:after {
+  background-color: #F50057;
+}
+
+.form-check-input:checked:focus:before {
+  box-shadow: 0 0 0 13px #ff5c96 !important;
+}
+
+.form-check-input[type=checkbox]:checked:focus {
+  background-color: #F50057 !important;
+}
+
+.btn.btn-success[disabled] {
+  background-color: pink !important;
+}
+
+.develop-container img {
+  width: 50%;
+}
+
+i {
+  color: #F50057;
+}
+
+.bg-orangered {
+  background-color: #ff5c96;
+}
+.bg-orangered h3 {
+  color: white;
+}
+.bg-orangered p {
+  color: white;
+}
+
+.footer-bg {
+  background-color: #F50057;
+}
+
+@media (min-width: 768px) {
+  .text-area p {
+    text-align: justify !important;
+  }
+  .text-area {
+    text-align: left !important;
+  }
+  .cv h3 {
+    text-align: center !important;
+  }
+  .spacing {
+    margin-top: 4.5rem !important;
+    margin-bottom: 4.5rem !important;
+  }
+}
+@media (min-width: 992px) {
+  .text-area p {
+    text-align: justify !important;
+  }
+  .text-area {
+    text-align: left !important;
+  }
+  .cv h3 {
+    text-align: center !important;
+  }
+  .intro-container {
+    margin-bottom: 8rem;
+  }
+  .big {
+    font-size: 4rem !important;
+  }
+  .imgbig {
+    width: 80% !important;
+  }
+}/*# sourceMappingURL=style.css.map */

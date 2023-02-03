@@ -1,0 +1,36 @@
+@media (min-width: 768px) {
+    .text-area p {
+        text-align: justify !important;
+    }
+    .text-area {
+        text-align: left!important;
+    }
+    .cv h3 {
+        text-align: center !important;
+    }
+    .spacing {
+        margin-top: 4.5rem !important;
+        margin-bottom: 4.5rem !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .text-area p {
+        text-align: justify !important;
+    }
+    .text-area {
+        text-align: left!important;
+    }
+    .cv h3 {
+        text-align: center !important;
+    }
+    .intro-container {
+        margin-bottom: 8rem;
+    }
+    .big {
+        font-size: 4rem !important;
+    }
+    .imgbig {
+        width: 80%!important;
+    }
+}

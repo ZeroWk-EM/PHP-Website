@@ -1,0 +1,65 @@
+        .cv_send {
+            input {
+                background-color: white !important;
+            }
+            label {
+                color: white;
+            }
+        }
+        
+        .form-outline .form-control:focus~.form-notch .form-notch-leading {
+            border-top: .200rem solid $primary;
+            border-bottom: .200rem solid $primary;
+            border-left: .200rem solid $primary;
+        }
+        
+        .form-outline .form-control:focus~.form-notch .form-notch-trailing {
+            border-top: .200rem solid $primary;
+            border-right: .200rem solid $primary;
+            border-bottom: .200rem solid $primary;
+        }
+        
+        .form-outline .form-control:focus~.form-notch .form-notch-middle {
+            border-top: 0;
+            border-bottom: .200rem solid $primary;
+        }
+        
+        .form-outline .form-control~.form-notch .form-notch-leading {
+            border-radius: 10px 0 0 10px;
+        }
+        
+        .form-outline .form-control~.form-notch .form-notch-trailing {
+            border-radius: 0 10px 10px 0;
+        }
+        
+        .form-label {
+            color: $primary !important;
+        }
+        
+        .form-check-input:checked {
+            border-color: lighten($color: $primary, $amount: 10) !important;
+        }
+        
+        .form-check-input[type=radio]:checked:after {
+            background-color: $primary;
+        }
+        
+        .form-check-input[type=checkbox]:checked {
+            background-color: $primary;
+        }
+        
+        .form-check-input[type=checkbox]:checked:after {
+            background-color: $primary;
+        }
+        
+        .form-check-input:checked:focus:before {
+            box-shadow: 0 0 0 13px lighten($color: $primary, $amount: 20) !important;
+        }
+        
+        .form-check-input[type=checkbox]:checked:focus {
+            background-color: $primary !important;
+        }
+        
+        .btn.btn-success[disabled] {
+            background-color: pink!important;
+        }

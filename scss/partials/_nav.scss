@@ -1,0 +1,13 @@
+.navbar-brand {
+    span {
+        color: $primary;
+    }
+}
+
+.nav-item {
+    a {
+        &:hover {
+            color: $primary;
+        }
+    }
+}

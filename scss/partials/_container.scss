@@ -1,0 +1,19 @@
+.develop-container {
+    img {
+        width: 50%;
+    }
+}
+
+i {
+    color: $primary;
+}
+
+.bg-orangered {
+    background-color: lighten($color: $primary, $amount: 20);
+    h3 {
+        color: white;
+    }
+    p {
+        color: white;
+    }
+}
